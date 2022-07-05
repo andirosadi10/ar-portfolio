@@ -3,7 +3,7 @@ import React from 'react';
 interface MenuProps {
   data: {
     name: String;
-    icon: Any;
+    icon: Function;
   }
 }
 

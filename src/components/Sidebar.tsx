@@ -11,7 +11,7 @@ import ListMenu from './ListMenu';
 
 interface MenuState {
   name: String;
-  icon: Any;
+  icon: Function;
 }
 
 const Sidebar = () => {

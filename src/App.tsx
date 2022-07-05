@@ -5,16 +5,16 @@ import Home from "./pages/Home"
 const App = () => {
   const theme = useRef<HTMLInputElement>(null)
 
-  const handleSetTheme = (e) => {
-    e.preventDefault()
-    console.log(theme.current?.classList[0]);
-    // theme.current?.classList.remove('dark');
+  // const handleSetTheme = (e) => {
+  //   e.preventDefault()
+  //   console.log(theme.current?.classList[0]);
+  //   // theme.current?.classList.remove('dark');
 
-    theme.current?.classList.add('dark');
-  }
+  //   theme.current?.classList.add('dark');
+  // }
 
   return (
-    <div className=" w-full flex border-0 antialiased" ref={theme}>
+    <div className="dark w-full flex border-0 antialiased relative" ref={theme}>
       {/* Sidebar */}
       <Sidebar />
       <Home />
