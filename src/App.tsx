@@ -14,7 +14,7 @@ const App = () => {
   // }
 
   return (
-    <div className="dark w-full flex border-0 antialiased relative" ref={theme}>
+    <div className="w-full flex border-0 antialiased relative" ref={theme}>
       {/* Sidebar */}
       <Sidebar />
       <Home />
